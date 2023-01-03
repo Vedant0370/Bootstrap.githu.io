@@ -1,0 +1,44 @@
+.carousel-item img{
+    height: 89.7vh;
+    width: 100%;
+
+}
+.services{
+    /* border: 3px solid red; */
+    /* height: 100vh; */
+    margin-top: 1rem;
+}
+.services-cols{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-cols .card img{
+    height: 15rem;
+    cursor: pointer;
+}
+.services-cols .card{
+    transition: all ease .5s;
+    /* border: 5px dotted blue; */
+}
+.services-cols .card:hover{
+    box-shadow: 10px 10px 15px gray; 
+    margin-top: -10px;
+    rotate: 10deg;
+   
+
+}
+.inner-about{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-about img{
+    height: 400px;
+    width: 400px;
+}
+/* .container-fluid img{
+    border: 1px solid red;
+} */
